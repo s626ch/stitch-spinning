@@ -1,0 +1,13 @@
+body{background-image:url('LiloAndStitchBackground.jpg');background-color:rgb(193, 193, 157);}
+@keyframes stitchspinning {
+    0% {
+        transform:rotate(0deg)
+    }
+    100% {
+        transform:rotate(360deg)
+    }
+}
+.stitch{
+    animation: 1s linear infinite forwards;
+    animation-name: stitchspinning;
+}
