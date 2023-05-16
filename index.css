@@ -1,4 +1,4 @@
-body{background-image:url('LiloAndStitchBackground.jpg');background-color:rgb(193, 193, 157);}
+body{background-image:url('./LiloAndStitchBackground.jpg');background-color:rgb(193, 193, 157);}
 @keyframes stitchspinning {
     0% {
         transform:rotate(0deg)
